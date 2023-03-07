@@ -1,0 +1,102 @@
+
+
+
+.sidebar{
+    background-color: black;
+    color:white;
+    width: 200px;
+    height:100%;
+    position:fixed;
+    padding:70px;
+    top:0;
+    left: 0;
+}
+.sidebar ul{
+    list-style: none;
+ 
+}
+ul{
+    list-style: none;
+    margin: 10px;
+    padding:20px;
+}
+
+li{
+    padding:15px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color:antiquewhite;
+}
+
+a:hover{
+    background-color:black;
+    color:darkcyan;
+    
+}
+
+.rounded-image{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    overflow: none;
+
+}
+.my name{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+
+.introduction{
+    margin-left: 300px;
+}
+
+.introduction-text{
+    font-size: 20px;
+    
+}
+.contact-me{
+    border:1px solid greenyellow;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+
+}
+.contact-me a{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+
+}
+.contact-me a:hover{
+    background-color: white;
+    color: black;
+    transition: 200ms ease-in-out;
+}
+.read-more{
+    padding: 10px;
+    border: 1px solid green;
+
+}
+
+.read-more a{
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 15px;
+    border: 1px solid black;
+}
+.read-more a:hover{
+    background-color: white;
+    color: white;
+    transition: 200ms ease-in-out;
+}
